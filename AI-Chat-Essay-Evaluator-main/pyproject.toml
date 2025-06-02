@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "summer-internship"
+version = "0.1.0"
+description = ""
+authors = ["Anshika"]
+readme = "README.md"
+packages = [{include = "evaluation"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10.5,<3.12"
+groq = "^0.8.0"
+python-dotenv = "^1.0.1"
+openai = "^1.30.3"
+pandas = "^2.2.2"
+streamlit = "^1.35.0"
+load-dotenv = "^0.1.0"
+langchain = "^0.2.2"
+langchain-community = "^0.2.3"
+streamlit-chat = "^0.1.1"
+document = "^1.0"
